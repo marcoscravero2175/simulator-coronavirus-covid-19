@@ -15,10 +15,13 @@ Se acaba de contagiar el individuo con el numero único de identificación 77. C
 
 El individuo con numero único de identificación 99 se infecto hace 2 días. A su vez el infecto a 2 personas.
 
-![Crop options](https://github.com/marcoscravero2175/simulator-coronavirus-covid-19/blob/master/readme/image007.png)
+![Crop options](https://github.com/marcoscravero2175/simulator-coronavirus-covid-19/blob/master/readme/image009.png)
+
 
 Mientras esta enfermo un individuo puede contagiar. La duración de la enfermedad se configura con la barra deslizable.
-![Crop options](https://github.com/marcoscravero2175/simulator-coronavirus-covid-19/blob/master/readme/image009.png)
+
+![Crop options](https://github.com/marcoscravero2175/simulator-coronavirus-covid-19/blob/master/readme/image007.png)
+
 ![Crop options](https://github.com/marcoscravero2175/simulator-coronavirus-covid-19/blob/master/readme/image010.png)
 
 Un individuo enfermo al cabo del tiempo que dura la enfermedad se cura o muere. Si se cura adquiere inmunidad y no se vuelve a contagiar.
