@@ -1,7 +1,7 @@
 Mesa: Agent-based modeling in Python 3+
 =========================================
 
-![](https://marcoscravero2175.github.io/simulator-coronavirus-covid-19/readme/image001.png)
+![](https://github.com/marcoscravero2175/simulator-coronavirus-covid-19/readme/image001.png)
 dddd
 https://github.com/pandao/editor.md/tree/master/images
 
