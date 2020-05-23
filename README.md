@@ -24,7 +24,7 @@ El individuo con numero único de identificación 99 se infecto hace 2 días. A 
 
 Mientras esta enfermo un individuo puede contagiar. La duración de la enfermedad se configura con la barra deslizable.
 ![Crop options](https://github.com/marcoscravero2175/simulator-coronavirus-covid-19/blob/master/readme/image009.png)
-![Crop options](https://github.com/marcoscravero2175/simulator-coronavirus-covid-19/blob/master/readme/image011.png)
+![Crop options](https://github.com/marcoscravero2175/simulator-coronavirus-covid-19/blob/master/readme/image0011.png)
 
 Un individuo enfermo al cabo del tiempo que dura la enfermedad se cura o muere. Si se cura adquiere inmunidad y no se vuelve a contagiar.
 
