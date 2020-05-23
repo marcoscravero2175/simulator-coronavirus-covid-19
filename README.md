@@ -7,42 +7,44 @@ Aplicación web online:
 https://simulator-coronavirus-covid-19.herokuapp.com/
 
 ![Crop options](https://github.com/marcoscravero2175/simulator-coronavirus-covid-19/blob/master/readme/image001.png)
-![Crop options](https://github.com/marcoscravero2175/simulator-coronavirus-covid-19/blob/master/readme/image005.png)
+![Crop options](https://github.com/marcoscravero2175/simulator-coronavirus-covid-19/blob/master/readme/image003.png)
 
 Se acaba de contagiar el individuo con el numero único de identificación 77. Como se puede leer en su ficha hace menos de un día que se contagio, todavía el no infecto a nadie mas.
 
-![Crop options](https://github.com/marcoscravero2175/simulator-coronavirus-covid-19/blob/master/readme/image006.png)
+![Crop options](https://github.com/marcoscravero2175/simulator-coronavirus-covid-19/blob/master/readme/image005.png)
 
 El individuo con numero único de identificación 99 se infecto hace 2 días. A su vez el infecto a 2 personas.
 
-![Crop options](https://github.com/marcoscravero2175/simulator-coronavirus-covid-19/blob/master/readme/image007.png)
+![Crop options](https://github.com/marcoscravero2175/simulator-coronavirus-covid-19/blob/master/readme/image006.png)
 
 
 Mientras esta enfermo un individuo puede contagiar. La duración de la enfermedad se configura con la barra deslizable.
 
-![Crop options](https://github.com/marcoscravero2175/simulator-coronavirus-covid-19/blob/master/readme/image008.png)
+![Crop options](https://github.com/marcoscravero2175/simulator-coronavirus-covid-19/blob/master/readme/image007.png)
 
-![Crop options](https://github.com/marcoscravero2175/simulator-coronavirus-covid-19/blob/master/readme/image009.png)
+![Crop options](https://github.com/marcoscravero2175/simulator-coronavirus-covid-19/blob/master/readme/image008.png)
 
 Un individuo enfermo al cabo del tiempo que dura la enfermedad se cura o muere. Si se cura adquiere inmunidad y no se vuelve a contagiar.
 
-![Crop options](https://github.com/marcoscravero2175/simulator-coronavirus-covid-19/blob/master/readme/image010.png)
+![Crop options](https://github.com/marcoscravero2175/simulator-coronavirus-covid-19/blob/master/readme/image009.png)
 
 La probabilidad de que se muera estando enfermo se configura con la barra deslizable. Si es 0,5% de 20 individuo que se enferman 1 muere.
 
-![Crop options](https://github.com/marcoscravero2175/simulator-coronavirus-covid-19/blob/master/readme/image011.png)
+![Crop options](https://github.com/marcoscravero2175/simulator-coronavirus-covid-19/blob/master/readme/image010.png)
 
-![Crop options](https://github.com/marcoscravero2175/simulator-coronavirus-covid-19/blob/master/readme/image012.png)
+![Crop options](https://github.com/marcoscravero2175/simulator-coronavirus-covid-19/blob/master/readme/image011.png)
 
 Un individuo muerto queda fijo en el lugar donde murió y no contagia a nadie mas.
 
-![Crop options](https://github.com/marcoscravero2175/simulator-coronavirus-covid-19/blob/master/readme/image013.png)
+![Crop options](https://github.com/marcoscravero2175/simulator-coronavirus-covid-19/blob/master/readme/image012.png)
 
 Todos los individuos sanos son susceptibles de contraer la enfermedad. Tanto los individuos sanos como los enfermos caminan por el tablero deslizándose aleatoriamente a una posición vecina con cada paso del tiempo.
 
-![Crop options](https://github.com/marcoscravero2175/simulator-coronavirus-covid-19/blob/master/readme/image014.png)
+![Crop options](https://github.com/marcoscravero2175/simulator-coronavirus-covid-19/blob/master/readme/image013.png)
 
 Si un individuo no respeta la distancia social con un individuo enfermo se puede enfermar. La distancia social se configura con la barra deslizable que dice distancia máxima de contagio. Si la distancia social es 1 todos los individuos que se encuentran en casilleros adyacentes de un individuo enfermo se pueden contagiar.
+
+![Crop options](https://github.com/marcoscravero2175/simulator-coronavirus-covid-19/blob/master/readme/image014.png)
 
 ![Crop options](https://github.com/marcoscravero2175/simulator-coronavirus-covid-19/blob/master/readme/image015.png)
 
