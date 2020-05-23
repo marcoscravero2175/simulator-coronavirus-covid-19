@@ -6,6 +6,8 @@ Parámetros de la simulación: población, individuos infectados, distancia soci
 Aplicación web online: 
 https://simulator-coronavirus-covid-19.herokuapp.com/
 
+https://www.academia.edu/43140898/Simulador_online_de_evoluci%C3%B3n_del_coronavirus_covid-19
+
 ![Crop options](https://github.com/marcoscravero2175/simulator-coronavirus-covid-19/blob/master/readme/image001.png)
 ![Crop options](https://github.com/marcoscravero2175/simulator-coronavirus-covid-19/blob/master/readme/image003.png)
 
