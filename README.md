@@ -3,16 +3,7 @@ Simulador de juguete de Covid-19
 
 Parámetros de la simulación: población, individuos infectados, distancia social, cantidad de días que un individuo infectado puede contagiar, probabilidad de un individuo se contagie estando dentro de la distancia social, probabilidad de que un individuo infectado muera.
 
-Aplicación web online: 
-https://simulator-coronavirus-covid-19.herokuapp.com/
-
 .. image:: https://github.com/marcoscravero2175/simulator-coronavirus-covid-19/blob/master/readme/image001.png
-   :width: 100%
-   :scale: 100%
-   :alt: A screenshot of the Schelling Model in Mesa
-
-simulator-coronavirus-covid-19/blob/master/readme/image001.png
-.. image:: https://github.com/marcoscravero2175/mesa/blob/master/docs/images/Mesa_Screenshot.png
    :width: 100%
    :scale: 100%
    :alt: A screenshot of the Schelling Model in Mesa
