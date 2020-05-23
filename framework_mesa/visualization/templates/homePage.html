@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>{{ model_name }} (Mesa visualization)</title>
+    <link href="/static/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+    <link href="/static/css/bootstrap-theme.min.css" type="text/css" rel="stylesheet" />
+    <link href="/static/css/bootstrap-switch.min.css" type="text/css" rel="stylesheet" />
+    <link href="/static/css/bootstrap-slider.min.css" type="text/css" rel="stylesheet" />
+    <link href="/static/css/visualization.css" type="text/css" rel="stylesheet" />
+
+	<!-- This is the Tornado template for the Modular Visualization. The Javascript code opens a WebSocket connection to
+	the server (the port is set via the template). On every step, it receives inputs, one per module, and sends
+	them to the associated function to render. -->
+</head>
+<body>
+
+
+<div id="elements" style = "margin-top: 10px; margin-bottom: 10px; margin-right: 100px;   margin-left: 100px">
+
+<h2 id="configuracion">Simulador de juguete de Covid-19</h2>
+<b>
+Seleccione los parametros de la simulacion
+</b>
+<br>
+
+<i>
+Poblaci&oacute;n, individuos infectados, distancia social, cantidad de d&iacute;as que un individuo infectado puede contagiar, probabilidad de un individuo se contagie estando dentro de la distancia social, probabilidad de que un individuo infectado muera.
+</i>
+
+<br>
+<br>
+
+<div id="sidebar">
+</div>			
+
+<label for="fps" style="margin-right: 15px">
+Pasos Por Segundo
+</label>
+<br>
+
+
+<input id="fps" data-slider-id='fps' type="text" />
+
+
+
+<div id="navbar" style="display: block;">
+
+
+
+
+<br>
+<button onclick="AplicarConfiguracion()">
+<b>
+Crear la simulacion con los parametros seleccionados
+</b>
+</button>
+
+
+
+
+</div>
+
+
+
+
+
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+<div id="elements-topbar">
+
+<div >
+
+
+
+
+
+
+    <!-- About modal -->
+    <div id="about" class="modal fade" tabindex="-1" role="dialog">*****
+        <div class="modal-dialog modal-lg">333333333
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">About {{ model_name }}</h4>
+                </div>
+                <div class="modal-body">5555555
+                    <div>{{ description }}</div>
+                    <div>&nbsp;6666666666</div>
+                    <div style="clear: both;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Bottom-load all JavaScript dependencies -->
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/bootstrap-switch.min.js"></script>
+    <script src="/static/js/bootstrap-slider.min.js"></script>
+
+    <!-- Script includes go here -->
+	{% for file_name in package_includes %}
+		<script src="/static/js/{{ file_name }}" type="text/javascript"></script>
+	{% end %}
+	{% for file_name in local_includes %}
+		<script src="/local/{{ file_name }}" type="text/javascript"></script>
+	{% end %}
+
+
+
+    <!-- template-specific code snippets here -->
+    <script>
+        var port = {{ port }};
+    </script>
+    <script src="/static/js/runcontrol.js"></script>
+
+
+
+    <!-- Element-specific scripts go here -->
+    <script>
+
+	    {% for script in scripts %}
+			{% raw script %}
+	    {% end %}
+    </script>
+<h2 id="simulacion">Juego del Coronavirus</h2>
+
+
+<script>
+step();
+
+function AplicarConfiguracion() {
+	document.getElementById("about").focus();
+	location.hash = "#simulacion";
+	reset()
+}
+
+
+function Play() {
+	document.getElementById("PlayPause").setAttribute( "onClick", "javascript: Pause();"); 
+	document.getElementById("PlayPause").innerHTML   = "Detener simulacion";
+	run();
+}
+
+function Pause() {
+	document.getElementById("PlayPause").setAttribute( "onClick", "javascript: Play();");
+	document.getElementById("PlayPause").innerHTML   = "Dar pasos automaticamente";
+	run();
+}
+
+</script>
+
+
+
+<button onclick="step()">
+Hacer un paso de simulacion
+</button>
+
+
+<button id = "PlayPause" onclick="Play()">
+Dar pasos automaticamente
+</button>
+
+<br>
+
+
+
+</body>
