@@ -1,9 +1,21 @@
-Simulador de juguete de Covid-19
+Mesa: Agent-based modeling in Python 3+
 =========================================
 
-Parámetros de la simulación: población, individuos infectados, distancia social, cantidad de días que un individuo infectado puede contagiar, probabilidad de un individuo se contagie estando dentro de la distancia social, probabilidad de que un individuo infectado muera.
+.. image:: https://api.travis-ci.org/projectmesa/mesa.svg?branch=master
+        :target: https://travis-ci.org/projectmesa/mesa
 
-.. image:: https://github.com/marcoscravero2175/simulator-coronavirus-covid-19/blob/master/readme/image001.png
+.. image:: https://codecov.io/gh/projectmesa/mesa/branch/master/graph/badge.svg
+  :target: https://codecov.io/gh/projectmesa/mesa
+
+.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+    :target: https://github.com/psf/black
+
+`Mesa`_ is an Apache2 licensed agent-based modeling (or ABM) framework in Python.
+
+It allows users to quickly create agent-based models using built-in core components (such as spatial grids and agent schedulers) or customized implementations; visualize them using a browser-based interface; and analyze their results using Python's data analysis tools. Its goal is to be the Python 3-based alternative to NetLogo, Repast, or MASON.
+
+
+.. image:: https://github.com/projectmesa/mesa/blob/master/docs/images/Mesa_Screenshot.png
    :width: 100%
    :scale: 100%
    :alt: A screenshot of the Schelling Model in Mesa
@@ -11,6 +23,8 @@ Parámetros de la simulación: población, individuos infectados, distancia soci
 *Above: A Mesa implementation of the Schelling segregation model,
 being visualized in a browser window and analyzed in a Jupyter
 notebook.*
+
+.. _`Mesa` : https://github.com/projectmesa/mesa/
 
 
 Features
