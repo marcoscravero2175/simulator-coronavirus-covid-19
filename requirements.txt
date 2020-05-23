@@ -2,7 +2,6 @@ arrow==0.13.1
 attrs==19.1.0
 backcall==0.1.0
 binaryornot==0.4.4
-bleach==3.1.0
 certifi==2019.3.9
 chardet==3.0.4
 Click==7.0
